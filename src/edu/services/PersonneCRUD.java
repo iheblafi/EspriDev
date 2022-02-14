@@ -93,7 +93,7 @@ public class PersonneCRUD {
     public List<Personne> affichagePersonnes() {
         List<Personne> myList = new ArrayList();
         try {
-            String requete = "SELECT id, nom, prenom,numtel, email FROM personne";
+            String requete = "SELECT id, nom, prenom,numtel FROM personne";
             Statement st = cnx2.createStatement();
             ResultSet res = st.executeQuery(requete);
 
