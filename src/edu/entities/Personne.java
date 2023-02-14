@@ -9,7 +9,7 @@ package edu.entities;
  *
  * @author iheb
  */
-public class Personne {
+public classvccv Personne {
     private int id;
     private String nom;
     private String prenom;
